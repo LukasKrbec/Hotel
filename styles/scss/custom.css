@@ -1,5 +1,41 @@
+* {
+  scroll-behavior: smooth; }
+
 body {
-  background-color: #3cff00;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
+  body header {
+    background-image: url(../../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    position: relative; }
+    body header #intro {
+      position: relative;
+      width: 100%;
+      min-height: 900px;
+      z-index: 2; }
+      body header #intro #formular {
+        background-color: rgba(180, 180, 180, 0.521); }
+    body header #overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 100%;
+      height: 100%;
+      background-color: rgba(128, 128, 128, 0.616);
+      z-index: 1; }
+
+.odskok {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100px; }
+
+section {
+  position: relative; }
 
 /*# sourceMappingURL=custom.css.map */
